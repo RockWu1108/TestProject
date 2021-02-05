@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* padding時 不會造成container變大 */
+    font-family: 'Noto Serif TC', serif;
+}
+
+header{
+    background-color: #C4C4C4;
+    width: 100%;
+    padding : 1rem;
+}
+
+nav {
+    background-color:#2F2626;
+}
+
+nav ul {
+    display:flex;
+    padding: 1rem;
+    list-style-type: none; /* 去除標點 */
+}
+
+nav ul li{
+    padding:0.5rem 0.75rem ;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+    color:white;
+    text-decoration: none; /* 去除底線 */
+
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight:normal;
+}
+
+.headerTitle{
+    font-size:3rem;
+}
+
+.headerTitle{
+    font-size: 1.5rem;
+}
